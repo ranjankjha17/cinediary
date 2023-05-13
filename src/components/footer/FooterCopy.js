@@ -28,7 +28,7 @@ const FooterCopy = () => {
         {'  & '}
         <a
           className="ml-1 font-semibold"
-          href="https://github.com/ranjankjha17/"
+          href="https://github.com/ranjankjha17/cinediary"
           target="_blank"
           rel="noreferrer"
         >

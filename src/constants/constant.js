@@ -1,6 +1,6 @@
 export const API_URL = 'https://api.themoviedb.org/3';
 
-export const BASE_URL = 'https://cinediary.vercel.app';
+export const BASE_URL = 'https://cinediary.vercel.app/login';
 
 export const twitterData = {
   'twitter:card': 'summary_large_image',
