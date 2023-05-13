@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&display=swap');
+
+@layer components {
+  /* Tab */
+  .tab-item {
+    @apply flex justify-center items-center text-sm md:text-base font-semibold cursor-pointer text-center shadow-bs3;
+  }
+
+  .tab-section {
+    @apply px-3 py-5;
+  }
+
+  /* Detail & fact */
+  .detail-tab-title {
+    @apply text-center font-bold text-normal xs:text-xl sm:text-2xl sm:mt-2 mb-8;
+  }
+
+  .fact-section-title {
+    @apply text-center font-medium mb-3 border-b-2 border-b-blue-400 mt-4;
+  }
+
+  .gallery-image {
+    @apply w-72 xs:w-[320px] lg:w-[350px] shadow-bs3 rounded-sm;
+  }
+
+  .gallery-image-profile {
+    @apply w-72 xs:w-[200px] lg:w-[220px] shadow-bs3 rounded-sm;
+  }
+
+  .fact-wrap {
+    @apply mb-3 pb-3 border-b-2 border-b-blue-100;
+  }
+
+  .fact-item {
+    @apply border-l-4 border-l-blue-600 pl-4;
+  }
+
+  .fact-type {
+    @apply text-base font-medium;
+  }
+
+  .fact-detail {
+    @apply text-base font-bold;
+  }
+
+  /* Login Button */
+  .login-button {
+    @apply font-semibold text-base md:text-xl mr-2 border-2 rounded-md shadow-xl hover:shadow-2xl  px-4 py-2;
+  }
+
+  .dropdown-item {
+    @apply py-2 block whitespace-nowrap text-sm font-semibold hover:underline;
+  }
+}
+
+* {
+  font-family: 'Montserrat', sans-serif;
+  scroll-behavior: smooth;
+  scrollbar-width: thin;
+  scrollbar-color: #333333 #3f83f8;
+}
+
+*::-webkit-scrollbar {
+  width: 8px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #c8c8ff;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #3f83f8;
+}
+
+body {
+  background-color: #fafafa;
+}
